@@ -66,3 +66,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 #### 1. Развертывание инфраструктуры
 
 Используем Terraform для развертывания инфраструктуры на YandexCloud
+
+![1](https://github.com/SG-netology/DiplomSG/blob/main/1.png)
+![2](https://github.com/SG-netology/DiplomSG/blob/main/2.png)
+
