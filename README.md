@@ -106,3 +106,19 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ![015](https://github.com/SG-netology/DiplomSG/blob/main/015.png)
 ![016](https://github.com/SG-netology/DiplomSG/blob/main/016.png)
 
+Настройка THresholds
+
+![017](https://github.com/SG-netology/DiplomSG/blob/main/017.png)
+
+Доступ к Kibana: 158.160.36.191:5601 (на 16-11-2023)
+
+![018](https://github.com/SG-netology/DiplomSG/blob/main/018.png)
+
+Выбор параметров для просмотра в Discover
+
+![019](https://github.com/SG-netology/DiplomSG/blob/main/019.png)
+
+Добавление нового индекса в управлении Kibana
+
+![020](https://github.com/SG-netology/DiplomSG/blob/main/020.png)
+
