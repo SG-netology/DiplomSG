@@ -97,3 +97,12 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 На ВМ pr проверяем сбор информации Prometheus, используя команду curl http://192.168.12.14:9090/metrics
 
 ![012](https://github.com/SG-netology/DiplomSG/blob/main/012.png)
+
+Доступ к Grafana: 158.160.116.22:3000 (на 16-11-2023) Логин: admin Пароль: qwerty
+Прописываем настройки Prometheus, экспортируем Dashboard №1860 Node Exporter Full
+
+![013](https://github.com/SG-netology/DiplomSG/blob/main/013.png)
+![014](https://github.com/SG-netology/DiplomSG/blob/main/014.png)
+![015](https://github.com/SG-netology/DiplomSG/blob/main/015.png)
+![016](https://github.com/SG-netology/DiplomSG/blob/main/016.png)
+
