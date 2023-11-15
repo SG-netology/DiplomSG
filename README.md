@@ -89,3 +89,11 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![9](https://github.com/SG-netology/DiplomSG/blob/main/9.png)
 ![010](https://github.com/SG-netology/DiplomSG/blob/main/010.png)
+
+На ВМ s1 и s2 проверяем Node-Exporter и Nginx log Exporter
+
+![011](https://github.com/SG-netology/DiplomSG/blob/main/011.png)
+
+На ВМ pr проверяем сбор информации Prometheus, используя команду curl http://192.168.12.14:9090/metrics
+
+![012](https://github.com/SG-netology/DiplomSG/blob/main/012.png)
