@@ -80,6 +80,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ![6](https://github.com/SG-netology/DiplomSG/blob/main/6.png)
 ![7](https://github.com/SG-netology/DiplomSG/blob/main/7.png)
 
+#### 2. Установка программ
 
 Используя Ansible, через ВМ bastion устанавливаем программы на остальные ВМ: Nginx на s1, s2, Elasticsearch на elastic, Kibana на kb, Grafana на gr, Prometheus на pr, на s1, s2 устанавливаются Node-Exporter и Nginx Log Exporter. Подключение к ВМ через SSH. Для экспорта плейбуков Ansible используется репозиторий: https://github.com/SG-netology/Ansible-set
 
@@ -97,6 +98,8 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 На ВМ pr проверяем сбор информации Prometheus, используя команду curl http://192.168.12.14:9090/metrics
 
 ![012](https://github.com/SG-netology/DiplomSG/blob/main/012.png)
+
+#### 3. Мониторинг
 
 Доступ к Grafana: 158.160.116.22:3000 (на 16-11-2023) Логин: admin Пароль: qwerty
 Прописываем настройки Prometheus, экспортируем Dashboard №1860 Node Exporter Full
