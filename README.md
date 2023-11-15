@@ -85,7 +85,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![8](https://github.com/SG-netology/DiplomSG/blob/main/8.png)
 
-Тестирование сайта
+Тестирование сайта (используем curl -v 158.160.130.88:80 (IP балансера) или в браузере)
 
 ![9](https://github.com/SG-netology/DiplomSG/blob/main/9.png)
 ![010](https://github.com/SG-netology/DiplomSG/blob/main/010.png)
