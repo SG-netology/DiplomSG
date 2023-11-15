@@ -70,3 +70,6 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ![1](https://github.com/SG-netology/DiplomSG/blob/main/1.png)
 ![2](https://github.com/SG-netology/DiplomSG/blob/main/2.png)
 
+Конфигурация ВМ, согласно рекомендуемой
+
+![3](https://github.com/SG-netology/DiplomSG/blob/main/3.png)
