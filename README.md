@@ -111,14 +111,17 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ![017](https://github.com/SG-netology/DiplomSG/blob/main/017.png)
 
 Доступ к Kibana: 158.160.36.191:5601 (на 16-11-2023)
+Выбор параметров для просмотра в Discover
 
 ![018](https://github.com/SG-netology/DiplomSG/blob/main/018.png)
 
-Выбор параметров для просмотра в Discover
+Добавление нового индекса в управлении Kibana
 
 ![019](https://github.com/SG-netology/DiplomSG/blob/main/019.png)
 
-Добавление нового индекса в управлении Kibana
-
 ![020](https://github.com/SG-netology/DiplomSG/blob/main/020.png)
 
+Проверка резервного копирования дисков ВМ в YandexCloud
+
+![021](https://github.com/SG-netology/DiplomSG/blob/main/021.png)
+![022](https://github.com/SG-netology/DiplomSG/blob/main/022.png)
