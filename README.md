@@ -79,3 +79,13 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ![5](https://github.com/SG-netology/DiplomSG/blob/main/5.png)
 ![6](https://github.com/SG-netology/DiplomSG/blob/main/6.png)
 ![7](https://github.com/SG-netology/DiplomSG/blob/main/7.png)
+
+
+Используя Ansible, через ВМ bastion устанавливаем программы на остальные ВМ: Nginx на s1, s2, Elasticsearch на elastic, Kibana на kb, Grafana на gr, Prometheus на pr, на s1, s2 устанавливаются Node-Exporter и Nginx Log Exporter. Подключение к ВМ через SSH. Для экспорта плейбуков Ansible используется репозиторий: https://github.com/SG-netology/Ansible-set
+
+![8](https://github.com/SG-netology/DiplomSG/blob/main/8.png)
+
+Тестирование сайта
+
+![9](https://github.com/SG-netology/DiplomSG/blob/main/9.png)
+![010](https://github.com/SG-netology/DiplomSG/blob/main/010.png)
