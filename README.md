@@ -72,7 +72,10 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 Конфигурация ВМ, согласно рекомендуемой
 
-Получаем сеть net1, подсети net11, net12, 7 ВМ, балансировщик, группы безопасности, back up дисков ВМ.
+Получаем сеть net1, подсети net11, net12, 7 ВМ, балансировщик, группы безопасности, back up дисков ВМ, Target Group, Backend Group, HTTP router.
 
 ![3](https://github.com/SG-netology/DiplomSG/blob/main/3.png)
 ![4](https://github.com/SG-netology/DiplomSG/blob/main/4.png)
+![5](https://github.com/SG-netology/DiplomSG/blob/main/5.png)
+![6](https://github.com/SG-netology/DiplomSG/blob/main/6.png)
+![7](https://github.com/SG-netology/DiplomSG/blob/main/7.png)
