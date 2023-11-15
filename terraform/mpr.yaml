@@ -1,0 +1,25 @@
+#cloud-config
+ timezone: Europe/Moscow
+ hostname: pr
+ users:
+  - name: grigoryev
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJdRhEPrZOS3o9ykkMQMC38YnVJhsr8YgrAhvJub0SBD grigoryev@debian
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJdRhEPrZOS3o9ykkMQMC38YnVJhsr8YgrAhvJub0SBD grigoryev@bastion
+
+ allow_public_ssh_keys: true
+ 
+ ssh_pwauth: false
+ 
+ chpasswd:
+  expire: false
+  users:
+    - name: grigoryev
+      password: qwerty
+      type: text
+    - name: root
+      password: qwerty
+      type: text    

@@ -1,0 +1,64 @@
+---
+#Nginx -> сервера
+- hosts: servers
+  user: grigoryev
+  become: true
+  become_user: root
+  roles:
+    - nginx
+
+#Elasticsearch -> VM elastic
+- hosts: elastic
+  user: grigoryev
+  become: true
+  become_user: root
+  roles:
+    - elastic
+
+#Kibana -> VM kb
+- hosts: kb
+  user: grigoryev
+  become: true
+  become_user: root
+  roles:
+    - kibana
+
+#Filebeat -> сервера
+- hosts: servers
+  user: grigoryev
+  become: true
+  become_user: root
+  roles:
+    - filebeat
+
+#Prometheus -> VM pr
+- hosts: pr
+  user: grigoryev
+  become: true
+  become_user: root
+  roles:
+    - prometheus
+
+#Grafana -> VM gr
+- hosts: gr
+  user: grigoryev
+  become: true
+  become_user: root
+  roles:
+    - grafana
+
+#Node-exporter -> сервера
+- hosts: servers
+  user: grigoryev
+  become: true
+  become_user: root
+  roles:
+    - node-exporters
+
+#Nginx Log Exporter -> сервера
+- hosts: servers
+  user: grigoryev
+  become: true
+  become_user: root
+  roles:
+    - nginx-log-exporter
