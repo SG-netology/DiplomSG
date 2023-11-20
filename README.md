@@ -113,7 +113,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![017](https://github.com/SG-netology/DiplomSG/blob/main/017.png)
 
-Доступ к Kibana: 158.160.127.57:5601 (на 20-11-2023)
+Доступ к Kibana: 84.201.173.204:5601 (на 20-11-2023)
 Выбор параметров для просмотра в Discover
 
 ![018](https://github.com/SG-netology/DiplomSG/blob/main/018.png)
