@@ -101,7 +101,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 #### 3. Мониторинг
 
-Доступ к Grafana: 158.160.96.240:3000 (на 19-11-2023) Логин: admin Пароль: qwerty
+Доступ к Grafana: 158.160.96.240:3000 (на 20-11-2023) Логин: admin Пароль: qwerty
 Прописываем настройки Prometheus, экспортируем Dashboard №1860 Node Exporter Full
 
 ![013](https://github.com/SG-netology/DiplomSG/blob/main/013.png)
@@ -113,7 +113,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![017](https://github.com/SG-netology/DiplomSG/blob/main/017.png)
 
-Доступ к Kibana: 51.250.1.118:5601 (на 19-11-2023)
+Доступ к Kibana: 158.160.127.57:5601 (на 20-11-2023)
 Выбор параметров для просмотра в Discover
 
 ![018](https://github.com/SG-netology/DiplomSG/blob/main/018.png)
